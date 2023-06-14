@@ -11,7 +11,7 @@ const btnNode = document.querySelector('.js-btn');
 
 
 function caseRecuest() {
-    fetch("http://www.boredapi.com/api/activity/")
+    fetch("https://www.boredapi.com/api/activity/")
     .then(data => data.json())
     .then((res) => {
         const classText = res.activity;
