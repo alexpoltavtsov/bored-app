@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-   width: 520px;
+   max-width: 520px;
    margin: 0 auto;
    padding-top: 115px; 
 }
@@ -51,4 +51,51 @@ body {
 .btn:hover {
     background: #0c5f9b;
 }   
+
+
+@media(max-width: 767px) {
+
+    .banner {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    
+
+    .btn {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    
+}
+
+
+@media(max-width: 500px) {
+    .banner {
+        padding: 5px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .text {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .btn {
+        height: 50px;
+        font-size: 20px;
+    }
+}
 
